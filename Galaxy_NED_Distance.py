@@ -4,7 +4,7 @@ import requests
 class Myexception(Exception):
     def __str__(self) :
         return 'not found'
-    
+#function to returns the distance to the galaxy from the name iof the galaxy in Mpc.
 def Gal_Dist(nm):
     try:
         name=nm
